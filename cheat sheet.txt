@@ -1,0 +1,27 @@
+    jQuery 
+
+1-jqueryis a library It can be slower than using native JavaScript and one thing you should know that the 2.x version doesnt support IE6,7 or 8 this is important to know for your project 
+
+2- Including the JQuery library
+ inside of the <head> and this is the copy library from google content delivery netwo, meaning it should be loaded no matter where the user is located <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+or you could only download it in your project
+
+3- The document object model (DOM)
+
+the DOM is a standard for interacting with and representing objects in HTML, XHTML, and XMLjQuery makes it incredibly easy to select elements in the DOM, which include practically any HTML tag or element
+4- selecting elements with JQuery
+   jQuery can be used to select elements using a similar syntax to CSS
+Exemple : $("body") and It should return an Array with selected elements: >[><body>...</body>]
+The format for selecting elements is:$("<element name, class, id, or XPath>")exemple:
+$("p")
+$(.class)
+$("ul li")
+-5 USING $(document).ready()
+    To use $(document).ready() and ensure the page is ready for your jQuery, you'll need to pass it an anonymous function (a callback) to execute when the document is ready
+6- some function event 
+$("body").hide();$("body").show();$("#section-one").fadeOut();$("#section-one").fadeIn();
+all those fuction above is to hide and show an elements 
+
+click event 
+$("ul li a").click( function(){ alert('imclicked!');}
+);

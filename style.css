@@ -1,0 +1,56 @@
+header{
+background-color: black;
+height: 150px;
+padding-top: 40px;
+
+}
+
+nav{
+	background-color: blue;
+ width: 30pc;
+ margin-top: 90px;
+
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	height: 50px;
+	width: 120px;
+	margin-top: 10px;
+	background-color: gray;
+}
+	
+}
+ul{
+
+}
+img{
+ margin-top: 20px;
+ margin-left: 80px;
+
+}
+.im{
+ margin-top: 20px;
+ margin-left: 80px;
+ background-color: green;
+
+}
+
+.nav-link{
+padding-top: 15px;
+display: inline-block;
+
+	border: 1px solid;
+	border-color: red;
+	
+
+}
+.text{
+     border: 1px solid;
+     border-color: green;
+
+}
+.nav-link:hover{
+background-color: blue;
+}
